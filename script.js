@@ -5,17 +5,17 @@ const blur = document.querySelector('.blur');
 const gamepic = document.querySelector('#gamepic');
 
 
-openMenu.addEventListener('click', show);
-closeMenu.addEventListener('click', close);
-function show() {
-    mainMenu.style.display = 'flex';
-    mainMenu.style.top = '55px';
-    openMenu.style.display = 'none';
-}
-function close() {
-    mainMenu.style.top = '-100%';
-    openMenu.style.display = 'block';
-}
+// openMenu.addEventListener('click', show());
+// closeMenu.addEventListener('click', close());
+// function show() {
+//     mainMenu.style.display = 'flex';
+//     mainMenu.style.top = '55px';
+//     openMenu.style.display = 'none';
+// }
+// function close() {
+//     mainMenu.style.top = '-100%';
+//     openMenu.style.display = 'block';
+// }
 window.addEventListener('load', function () {
     this.setTimeout(function () {
         blur.classList.remove('blur');
