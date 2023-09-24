@@ -36,7 +36,7 @@
   nav ul li a {
     text-decoration: none;
    letter-spacing: 1px;
-        margin: 10px 35px 5px 33px;
+   margin: 10px 31px 0px 20px;
     color: white;
     font-size: 30px;
     font-family: poppins;
@@ -673,6 +673,13 @@
       display: flex;
     }
   }
+  @media(max-width:393px)
+  {
+    nav ul{
+      width:25em ;
+    }
+  }
+
   @media screen and (max-width: 1257px) {
     #infoback {
       display: block;
@@ -758,8 +765,14 @@
   }
   @media screen and (max-width: 490px) {
     .infosection {
-      background-color: #ee5f5f;
-      margin: 16px auto auto auto;
+      background-color:#f2f2f2;
+            margin: 16px auto auto auto;
+    }
+    #infoback{
+      background-color: #f2f2f2;
+    }
+    .myphoto,.about,.details,.more,.quote{
+      border:2px solid black;
     }
     .mcontent {
       background: url('/3255469.jpg');

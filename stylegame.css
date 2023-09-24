@@ -15,17 +15,13 @@ html {
   font-family: 'Press Start 2P', sans-serif;
   color: #eee;
   background-color: #222;
-  /* background-color: #60b347; */
-  /* background-image: url('pexels-matej-896895.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat; */
 }
 
 /* LAYOUT */
 header {
   position: relative;
   height: 35vh;
+  width: 100%;
   border-bottom-left-radius:12px ;
   border-bottom-right-radius: 12px;
   border-bottom: 7px solid #eee;
@@ -41,19 +37,20 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  border:5px solid #ff004f;
+  /* border:5px solid #ff004f; */
   /* border-radius: 10px; */
 }
 
 .left {
-  width: 52rem;
+  /* width: 52rem; */
+  margin-left: 16px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .right {
-  width: 52rem;
+  margin:0 16px;
   font-size: 2rem;
 }
 
@@ -62,11 +59,8 @@ main {
 h1{
   font-size: 4rem;
   text-align: center;
-  color:#fff04f;
   position: absolute;
-  width: 50%;
   height:12vh;
-  background-color: #434141;
   border-radius: 20px;
   display: flex;
   align-items: center;
@@ -137,3 +131,32 @@ h1{
 .label-score {
   margin-bottom: 2rem;
 } 
+
+
+@media(max-width:665px)
+{
+  .btn{
+  padding: 1rem 1rem;
+  }
+  .again {
+    padding: 5px;
+    margin:0 18px;
+    left: 0rem;
+  } 
+  .guess {
+    font-size: 4rem;
+    padding: 1px;
+    width: 12rem;
+    margin-bottom: 3rem;
+    margin-left: 12px;
+  }
+  h1{
+    font-size: 3rem;
+    background-color:#222;
+  }
+  .number {
+    font-size: 4rem;
+    width: 8rem;
+    padding: 1rem 0rem;
+  }
+}
