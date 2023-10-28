@@ -15,8 +15,6 @@ document.querySelector('.check').addEventListener('click', function () {
         printMessage('Yay! You won🎉🎉');
         document.querySelector('.number').textContent = secretNumber;
         document.querySelector('body').style.backgroundColor = '#60b347';
-        // document.body.style.background = "url('pexels-pixabay-433452.jpg')";
-        // document.body.style.backgroundSize = "auto 100% 100% cover";
         if (score > highscore)
         {
             highscore = score;
